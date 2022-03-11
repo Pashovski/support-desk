@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import authService from './authService'
 
 const initialState = {
-  user: 'null',
+  user: null,
   isError: false,
   isSuccess: false,
   isLoading: false,
