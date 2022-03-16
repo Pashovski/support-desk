@@ -74,5 +74,6 @@ export const authSlice = createSlice({
   },
 })
 
+//Export
 export const { reset } = authSlice.actions
 export default authSlice.reducer
