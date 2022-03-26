@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import {toast} from 'react-toastify'
+import Modal from 'react-modal'
 import {useSelector, useDispatch} from 'react-redux'
 import {getTicket, closeTicket} from '../features/tickets/ticketSlice'
 import {getNotes, reset as notesReset} from '../features/notes/noteSlice'
@@ -7,6 +8,8 @@ import { useParams, useNavigate } from 'react-router-dom'
 import BackButton from '../components/BackButton'
 import Spinner from '../components/Spinner'
 import NoteItem from '../components/NoteItem'
+
+
 
 
 function Ticket() {
