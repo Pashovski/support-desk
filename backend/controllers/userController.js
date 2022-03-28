@@ -3,7 +3,6 @@ const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken')
 
 const User = require('../models/userModel')
-const { generateKey } = require('crypto')
 
 // @desc    Register a new user
 // @route   /api/users
